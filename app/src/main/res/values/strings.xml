@@ -10,5 +10,5 @@
     <string name="Tram">Tram</string>
     <string name="Yes">Yes</string>
     <string name="No">No</string>
-    <string name="generateMap">Generate the map by clicking the button below:</string>
+    <string name="genMap">Click below to generate the Map:</string>
 </resources>
