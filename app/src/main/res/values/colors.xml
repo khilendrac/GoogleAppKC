@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    // Adding some different colors:
+    <color name="colorPrimary">#d6bd91</color>
+    <color name="colorAccent">#13654a</color>
+
 </resources>
