@@ -23,7 +23,7 @@ import kotlin.collections.forEach as forEach1
 class MapDataUnitTest {
     @Test
     fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+        assertEquals(4, 1 + 3)
     }
 
     lateinit var mvm:MainViewModel
