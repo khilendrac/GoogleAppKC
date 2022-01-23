@@ -1,6 +1,5 @@
 package com.example.khilendra.googleappkc.ui.main
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -10,21 +9,15 @@ import android.widget.ImageButton
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.TextView
-import androidx.viewbinding.ViewBindings
-import com.example.khilendra.googleappkc.Communicator
-import com.example.khilendra.googleappkc.MainActivity
 import com.example.khilendra.googleappkc.R
-
 
 class MainFragment : Fragment() {
 
     companion object {
         fun newInstance() = MainFragment()
     }
-
     private lateinit var viewModel: MainViewModel
 
-    private lateinit var communicator: Communicator
 
     //Actual variables to pass after validation
     private var transportType = ""
@@ -35,7 +28,6 @@ class MainFragment : Fragment() {
     private var flag1 = true
     private var flag2 = true
     private var flag3 = true
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -120,26 +112,6 @@ class MainFragment : Fragment() {
                     errorText.setText("Please select Myki Topup or Not!")
                 }
             }
-
-
-
-        /*
-        communicator = activity as Communicator
-        btnGen.setOnClickListener {
-            validate()
-            if(flag1) {
-            } else {
-                communicator.passDataCom("done")
-            }
-        }
-        */
-
         return view
-
     }
-
-
-
-
-
 }

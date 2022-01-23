@@ -25,12 +25,6 @@ class MainActivity : AppCompatActivity(){
         }
 
 
-        //Starting the logic here:
-
-        //Setting up the button
-
-        //Logic after button is clicked:
-
         //Setting up the fragment here
 
         val mainFragment = MainFragment()
@@ -38,30 +32,4 @@ class MainActivity : AppCompatActivity(){
 
     }
 
-
-/*
-    override fun passDataCom(editTextInput: String) {
-        val bundle = Bundle()
-        bundle.putString("message",editTextInput)
-
-        val transaction = this.supportFragmentManager.beginTransaction()
-
-        val googleMapFragment = GoogleMapFragment()
-
-        googleMapFragment.arguments = bundle
-
-        transaction.replace(R.id.mainScreen, googleMapFragment)
-        transaction.commit()
-
-    }
-
-    internal fun onOpenMap() {
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.container, GoogleMapFragment())
-            .commitNow()
-
-
-    }
-
-*/
 }
