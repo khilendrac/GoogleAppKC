@@ -42,7 +42,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroupMyki"
         app:layout_constraintVertical_bias="0.439"
-        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/lblTransportType"
@@ -170,5 +171,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroupMyki"
         app:layout_constraintVertical_bias="0.633" />
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="246dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="47dp"
+        android:text=""
+        android:textColor="@color/design_default_color_error"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroupTransportType"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblScreenText"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
